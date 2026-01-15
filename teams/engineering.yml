@@ -43,4 +43,7 @@ team_settings:
         - 1775
         - 1780
 software:
+  packages:
+    - path: ../lib/windows/software/cloudflare-warp.yml
+      self_service: false
 
