@@ -12,7 +12,7 @@ agent_options:
 controls: # This cannot be set here and in no-team.yml
 org_settings:
   fleet_desktop: 
-    transparency_irl: https://dogoftheday.com
+    transparency_url: https://dogoftheday.com
   host_expiry_settings:
     host_expiry_enabled: true
     host_expiry_window: 30
