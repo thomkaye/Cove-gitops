@@ -10,6 +10,7 @@
 name: New Hires
 policies:
   - path: ../lib/macos/policies/macos-device-health.policies.yml
+  - path: ../lib/macos/policies/dns-resolvers.policies.yml
 queries:
   - path: ../lib/all/queries/collect-usb-devices.queries.yml
   - path: ../lib/all/queries/collect-failed-login-attempts.queries.yml
@@ -18,6 +19,7 @@ agent_options:
 controls:
   scripts:
     - path: ../lib/macos/scripts/set-timezone.script.sh
+    - path: ../lib/macos/policies/dns-resolvers.policies.yml
   macos_settings:
     custom_settings:
       - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
