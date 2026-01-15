@@ -19,7 +19,11 @@ org_settings:
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Fleet
+    org_name: CoveHarbour
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/6390995c-6f6d-4f0d-9c13-ad448d73ab1e
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
